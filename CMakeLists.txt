@@ -1,4 +1,4 @@
-idf_component_register(SRCS "nvs_dotenv.c"
+idf_component_register(SRCS "nvs_dotenv.cpp"
                        INCLUDE_DIRS "include"
                        PRIV_REQUIRES nvs_flash)
 
