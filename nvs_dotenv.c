@@ -4,7 +4,7 @@
 #include "nvs_flash.h"
 #include "esp_check.h"
 
-#define DOTENV_NVS_PARTITION "dotenv"
+#define DOTENV_NVS_PARTITION NVS_DEFAULT_PART_NAME
 #define DOTENV_NVS_NAMESPACE "dotenv"
 #define DOTENV_COUNT_KEY     "count"
 
