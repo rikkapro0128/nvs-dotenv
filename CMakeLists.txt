@@ -2,7 +2,7 @@ idf_component_register(SRCS "nvs_dotenv.cpp"
                        INCLUDE_DIRS "include"
                        PRIV_REQUIRES nvs_flash)
 
-set(partition "dotenv")
+set(partition "nvs")
 
 # Find dotenv file in the project directory
 idf_build_get_property(project_dir PROJECT_DIR)
